@@ -124,11 +124,13 @@ li {
     .clip_path2 {
       clip-path: polygon(0 0, 45% 0, 32% 100%, 0 100%);
       width:  900px;
+      height: 450px !important;
       border-radius: 10px;
     }
     .clip_path{
       clip-path: polygon(14% 0, 100% 0, 100% 100%, 46% 100%);
       width:  500px;
+      height: 450px !important;
       border-radius: 10px
     }
   }
