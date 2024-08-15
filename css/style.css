@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+    /* margin: 0 !important; */
+    /* padding: 0 !important; */
+    /* box-sizing: border-box !important; */
+    font-family: "Lora", serif;
+    /* padding-left: 2px !important; */
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.navbar{
+  opacity: 0.8 !important;
+}
+.egypt {
+  background: linear-gradient(
+    to bottom,
+    #e61ef1,
+    #6dcece
+  ); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.carousel-item img {
+  height: 100vh;
+}
+.carousel-caption {
+  background-color: rgba(115, 112, 99, 0.5);
+  border-radius: 10px;
+  padding: 50px;
+  padding-top: 20px;
+}
+.carousel-indicators {
+  padding-bottom: 10px;
+}
+.h_icons {
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  right: 2%;
+  position: fixed;
+}
+.h_icons ul li i {
+  font-size: 80px;
+  color: rgb(26, 106, 133);
+  margin-bottom: 15px;
+}
+.h_icons ul li i:hover {
+  color: rgb(182, 140, 89);
+}
+.second-bg {
+  background-color: #3cd4df;
+}
+.third-bg {
+    background-color: #168eac;
+  }
+  .xx{
+    background: url("https://img.freepik.com/free-vector/colored-border-pattern-egypt-theme_1284-19713.jpg?t=st=1723224811~exp=1723228411~hmac=a6987093278cea2fa79d761b78ea7262526203bb04de540f22dda798bb8ea26d&w=1480");
+
+  }
+  .yy{
+    background: url("../image/egy.jpg");
+  }
+  .moved-img {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20%;
+  }
+  .card-item::after,
+  .card-item::before {
+      position: absolute;
+      content: "";
+      width: 0%;
+      height: 0%;
+      background-color: #3cd4df;
+      opacity: 0;
+      border-radius: 38px;
+  }
+  .card-item::after {
+      top: 0;
+      left: 0;
+  }
+  .card-item::before {
+      bottom: 0;
+      right: 0;
+  }
+  .card-item:hover::after,
+  .card-item:hover::before {
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      transition: 3s;
+  }
+  .card-item img{
+    border-radius: 30px !important;
+  }
+
+  .c-x{
+    background-color: rgba(6, 4, 31, 0.5) !important;
+    border-radius: 40px;
+  }
+  .active-card{
+    transition: 1s;
+  }
+  .active-card:active{
+    transform: scale(0.9);
+    cursor: grab;
+    transition: 0.5s;
+  }
+  .active-card:active .c-x{
+    background-color: rgba(85, 75, 228, 0.5) !important;
+  }
+  .active-card img ,.card{
+    border-radius: 40px;
+  }
+
+  @media (min-width: 1024px) {
+    .clip_path2 {
+      clip-path: polygon(0 0, 45% 0, 32% 100%, 0 100%);
+      width:  900px;
+      border-radius: 10px;
+    }
+    .clip_path{
+      clip-path: polygon(14% 0, 100% 0, 100% 100%, 46% 100%);
+      width:  500px;
+      border-radius: 10px
+    }
+  }
+  @media (max-width: 768px) {
+    .clip_path,.clip_path2 {
+      width: 100% !important;
+      height: 280px !important;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .vvvv{
+      width: 100% !important;
+    }
+  }
+.head-title{
+    height: 5px !important;
+    width:60px !important;
+    border-radius: 5px !important;
+    transition: 1s !important;
+}
+.line_hover:hover .head-title{
+  width: 140px !important;
+}
+.special-shadow{
+  border-radius: 7px;
+  box-shadow: 0px 0px 25px -4px rgba(135, 142, 223, 1);
+}
+.foot-img{
+  box-shadow: -8px 0px 37px 5px rgba(95, 90, 99, 1);
+}
+.footer-a :hover .footer-a li a{
+  color:rgb(21, 192, 86);
+  transform: scale(0.9);
+}
+.footer-a a:hover {
+  color:rgb(21, 192, 86) !important;
+}
