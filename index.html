@@ -66,13 +66,13 @@
 
           </form> -->
           <div class="row me-2 gx-5 ">
-            <div class="col-lg-8 col-sm-10 col-xs-10   me-lg-0 me-sm-3 me-xs-1">
+            <div class="col-lg-8 col-sm-10 col-12  me-lg-0 me-sm-3 me-1">
               <input class="form-control  rounded-3 mb-lg-0  mb-sm-3 ms-lg-0 ms-sm-5" type="search" placeholder="Search" aria-label="Search">
             </div>
-            <div class="col-lg-2 col-sm-2 col-xs-2 ms-lg-0 ms-sm-3 ms-xs-1">
+            <div class="col-lg-2 col-sm-2 col-2 ms-lg-0 ms-sm-3 ms-3 me-lg-0 me-3 mt-lg-0 mt-3">
               <button class="btn btn-info  bg-info text-light rounded-3  " type="submit">Search</button>
             </div>
-            <div class="col-lg-2 col-sm-2 col-xs-2 "> 
+            <div class="col-lg-2 col-sm-2 col-2 mt-lg-0 mt-3"> 
               <button class="btn btn btn-info text-light rounded-3" data-bs-toggle="modal" data-bs-target="#exampleModal">login</button>
             </div> 
           </div>
@@ -159,7 +159,7 @@
       
       <div class="carousel-caption d-md-block">
         <h2 class="fs-1" >CAIRO</h2>
-        <p class="fs-4">Discover the timeless wonders of Cairo, where ancient history meets vibrant culture! Explore the majestic pyramids, wander through bustling bazaars, and savor exquisite Egyptian cuisine. Experience the magic of the Nile and create unforgettable memories in the heart of Egypt!</p>
+        <p class="fs-4">Experience Cairo: a vibrant fusion of ancient wonders and modern excitement!</p>
         <button class="btn btn-dark px-3">Visit US!</button>
       </div>
     </div>
@@ -171,7 +171,7 @@
       />
       <div class="carousel-caption d-md-block">
         <h2 class="fs-1">ASWAN</h2>
-        <p class="fs-4">Explore the enchanting beauty of Aswan, where the Nile whispers ancient secrets and vibrant culture flourishes! Immerse yourself in breathtaking landscapes, rich history, and warm hospitality. Discover your next unforgettable adventure in this timeless gem of Egypt!</p>
+        <p class="fs-4">Explore Aswan: a serene escape with stunning temples and breathtaking Nile views.</p>
         <button class="btn btn-dark">Visit US!</button>
       </div>
     </div>
@@ -183,7 +183,7 @@
       />
       <div class="carousel-caption d-md-block">
         <h2 class="fs-1">SHARM EL SHIKH</h2>
-        <p class="fs-4">Discover the enchanting beauty of Sharm El Sheikh, where crystal-clear waters meet stunning landscapes! Dive into vibrant coral reefs, unwind on sun-kissed beaches, and experience the thrill of desert adventures. Your unforgettable getaway awaits—book your escape today!</p>
+        <p class="fs-4">Unwind in Sharm El Sheikh: paradise of crystal-clear waters and sun-kissed beaches.</p>
         <button class="btn btn-dark">Visit US!</button>
       </div>
     </div>
@@ -195,7 +195,7 @@
       />
       <div class="carousel-caption d-md-block">
         <h2 class="fs-1">LUXOR</h2>
-        <p class="fs-4">Discover the enchanting beauty of EL Luxor, where ancient history meets modern luxury! Immerse yourself in breathtaking landscapes and vibrant culture, creating memories that last a lifetime. Book your unforgettable adventure today and experience the magic of Egypt!</p>
+        <p class="fs-4">Discover Luxor: the heart of ancient Egypt with majestic temples and timeless treasures.</p>
         <button class="btn btn-dark">Visit US!</button>
       </div>
     </div>
@@ -232,7 +232,7 @@
 <div class="second-bg border-bottom  border-secondary rounded-3">
   <div class="p-4 ps-5">
     <h2 class="egypt"> WELCOME</h2>
-    <p class="fs-4 text-white"> Are you planning to visit Egypt? we offer the ultimate tour in Egypt, covering Cairo,alex. From a one day to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/7 Customer Service.</p>
+    <p class="fs-4 text-white pe-4" style="text-align: justify;"> Are you planning to visit Egypt? we offer the ultimate tour in Egypt, covering Cairo,alex. From a one day to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/7 Customer Service.</p>
     <button type="button" class="btn btn-light text-info px-3">Learn more</button>
   </div>
 </div>
@@ -243,10 +243,10 @@
   <div class="P_des third-bg text-center p-5 rounded-3 mb-3">
       <h1 class="text-light"> Popular destination in Egypt</h1>
   </div>  
-  <div class="accordion pb-3" id="accordionExample">
+  <div class="accordion pb-3 " id="accordionExample">
     <div class="accordion-item ">
       <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button egypt fs-3 shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="accordion-button collapsed egypt fs-3 shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           GIZA CITY
         </button>
       </h2>
@@ -295,10 +295,13 @@
     <!-- <button type="button" class="btn btn-light text-info fs-4" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Copied">
       Copy
     </button> -->
-    <button type="button" class="btn btn-light text-info fs-5" id="CopY"
-    data-bs-toggle="tooltip" data-bs-placement="right" title="Copy to clipboard"     >
-      Copy
+    <button type="button" class="btn btn-light text-info fs-5  position-relative" id="CopY"  >
+      Copy <span class="position-absolute top-100 start-100 badge   bg-secondary copyButton text-wrap">copy to clipboard</span>
+      <span class="position-absolute top-100 start-100  badge  bg-secondary copyButton text-wrap">copied successfully</span>
     </button>
+
+
+   
 
     <div class="form-floating mt-4">
       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
@@ -306,6 +309,7 @@
     </div>
   </div>
 </div>
+
 
 <div class="container-fluid pt-2 pb-3 border-bottom mt-3"> <!-- Translate from Arabic to french -->
   <div class="P_des third-bg text-center p-3 rounded-3 mb-3">
@@ -318,9 +322,9 @@
     <!-- <button type="button" class="btn btn-light text-info fs-4" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Copied">
       Copy
     </button> -->
-    <button type="button" class="btn btn-light text-info fs-5" id="CopY"
-    data-bs-toggle="tooltip" data-bs-placement="right" title="Copy to clipboard"     >
-      Copy
+    <button type="button" class="btn btn-light text-info fs-5 position-relative" id="CopY"   >
+      Copy <span class="position-absolute top-100 start-100 badge   bg-secondary copyButton text-wrap">copy to clipboard</span>
+      <span class="position-absolute top-100 start-100  badge  bg-secondary copyButton text-wrap">copied successfully</span>
     </button>
 
     <div class="form-floating mt-4">
@@ -340,9 +344,9 @@
     <!-- <button type="button" class="btn btn-light text-info fs-4" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Copied">
       Copy
     </button> -->
-    <button type="button" class="btn btn-light text-info fs-5" id="CopY"
-    data-bs-toggle="tooltip" data-bs-placement="right" title="Copy to clipboard"     >
-      Copy
+    <button type="button" class="btn btn-light text-info fs-5 position-relative" id="CopY"   >
+      Copy <span class="position-absolute top-100 start-100 badge   bg-secondary copyButton text-wrap">copy to clipboard</span>
+      <span class="position-absolute top-100 start-100  badge  bg-secondary copyButton text-wrap">copied successfully</span>
     </button>
 
     <div class="form-floating mt-4">
@@ -551,7 +555,7 @@
       <div class="order-2 " >
         <img src="image/clip.jpg" class="clip_path  h-100" alt="">
       </div>
-      <div class=" mb-lg-2 ps-5 pt-5 pb-5 pe-xs-4 order-1 ">
+      <div class=" mb-lg-2 ps-lg-5 ps-4 pt-5 pb-5 pe-xs-4 order-1 ">
           <h3 class="pt-lg-3">Podacast Title</h3>
           <span><i class="fas fa-calendar-alt"></i> Sun, Aug 11th 2024</span>
           <p class="head-title bg-primary mt-3"></p>
@@ -567,7 +571,7 @@
       <div class="w-25 vvvv" >
         <img src="image/clip-2.jpg" class="clip_path2 h-100" alt="">
       </div>
-      <div class="mb-lg-2 pb-5 mb-sm-5 pe-lg-5 pe-sm-4 ps-lg-0 ps-5 pt-5">
+      <div class="mb-lg-2 pb-5 mb-sm-5 pe-lg-5 pe-sm-4 ps-lg-5 ps-4 pt-5">
           <h3 class="pt-lg-3 pt-sm-2">Podacast Title</h3>
           <span><i class="fas fa-calendar-alt"></i> Sun, Aug 11th 2024</span>
           <p class="head-title bg-danger mt-3"></p>
@@ -582,7 +586,7 @@
       <div class="order-2 " >
         <img src="image/clip-3.webp" class="clip_path h-100 " alt="">
       </div>
-      <div class=" mb-lg-2 ps-5 pt-5 pb-5 pe-sm-4 order-1  ">
+      <div class=" mb-lg-2 ps-lg-5 ps-4 pt-5 pb-5 pe-sm-4 order-1  ">
           <h3 class="pt-lg-3">Podacast Title</h3>
           <span><i class="fas fa-calendar-alt"></i> Sun, Aug 11th 2024</span>
           <p class="head-title bg-success mt-3"></p>
@@ -597,7 +601,7 @@
       <div class="w-25 vvvv " >
         <img src="image/clip-4.avif" class="clip_path2 h-100 " alt="" >
       </div>
-      <div class="mb-lg-2 pb-5 pt-lg-5 pe-lg-5 pe-sm-4 ps-lg-0 ps-5">
+      <div class="mb-lg-2 pb-5 pt-lg-5 pe-lg-5 pe-sm-4 ps-lg-5 ps-4">
           <h3 class="pt-lg-2 pt-5">Podacast Title</h3>
           <span><i class="fas fa-calendar-alt"></i> Sun, Aug 11th 2024</span>
           <p class="head-title bg-warning mt-3"></p>

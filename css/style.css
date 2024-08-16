@@ -13,9 +13,9 @@ a {
 li {
   list-style-type: none;
 }
-.navbar{
+/* .navbar{
   opacity: 0.8 !important;
-}
+} */
 .egypt {
   background: linear-gradient(
     to bottom,
@@ -121,6 +121,9 @@ li {
   }
 
   @media (min-width: 1024px) {
+    .navbar{
+      opacity: 0.8 !important;
+    }
     .clip_path2 {
       clip-path: polygon(0 0, 45% 0, 32% 100%, 0 100%);
       width:  900px;
@@ -135,6 +138,9 @@ li {
     }
   }
   @media (max-width: 768px) {
+    .navbar{
+      opacity: 0.9 !important;
+    }
     .clip_path,.clip_path2 {
       width: 100% !important;
       height: 280px !important;
@@ -167,4 +173,20 @@ li {
 }
 .footer-a a:hover {
   color:rgb(21, 192, 86) !important;
+}
+.copyButton {
+  visibility: hidden !important;
+  border-radius: 0 10px 10px 10px !important;
+  z-index:3;
+  color: black;
+  background-color: #bed5d6 !important;
+  padding: 8px;
+}
+#CopY:hover span:first-child {
+  visibility: visible !important;
+
+}
+#CopY:active span:last-child {
+  visibility: visible !important;
+
 }
